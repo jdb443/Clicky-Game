@@ -11,10 +11,10 @@ This is an EXTREME memorization and click game. The object of the game is to cli
 Try the app Here []() (`Heroku`)
 
 ## The Screenshot
-![Screenshot](/public/assets/screenshots/demo-01.png)
+![Screenshot](./public/assets/screenshots/demo-01.jpg)
 &#10214;`Can you remember all 24 characters?`&#10215;
 
-![Screenshot](/public/assets/screenshots/demo-02.png)
+![Screenshot](./public/assets/screenshots/demo-00.jpg)
 &#10214;`You have exceptional eidetic memory!`&#10215;
 
 ## How to Play
@@ -31,11 +31,10 @@ Try the app Here []() (`Heroku`)
 * [Node dependencies](https://nodejs.org/en/)
 * [Bootstrap 4](https://getbootstrap.com/)
 * [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3)
-* [Google Fonts](https://fonts.google.com/)
 * [heroku](https://www.heroku.com)
 
 ## How to Install and Run
-01. git clone 
+01. git clone git@github.com:jdb443/Clicky-Game.git
 02. cd into the react-clicky-game (pwd or ls to check yo self)
 03. Run yarn install to get all dependencies
 04. Run yarn start (in bash/powershell)
