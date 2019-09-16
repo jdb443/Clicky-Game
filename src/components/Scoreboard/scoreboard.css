@@ -1,0 +1,150 @@
+@font-face {
+  font-family: 'game_of_thronesregular';
+  src: url('game_of_thrones_font/gameofthrones-webfont.woff2') format('woff2'),
+       url('game_of_thrones_font/gameofthrones-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+@font-face {
+  font-family: 'hodorregular';
+  src: url('hodor_font/hodor-webfont.woff2') format('woff2'),
+       url('hodor_font/hodor-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h5,
+h6 {
+  /* background-color: #fff; */
+  display: inline;
+  cursor: default;
+}
+
+h5 {
+  font-size: 5em;
+  color:#ffffff;
+}
+
+/* h5:hover {
+  color: #fff;
+  background-color: #000;
+  display: inline;
+} */
+
+h6:hover {
+  color: #fff;
+  background-color: Blue;
+  display: inline;
+}
+
+h5.threeD {
+	font-size: 5em;
+	font-weight: normal;
+	text-align: center;
+	margin: .5em 0 .5em 0;
+	color: #ffffff;
+	text-shadow:
+		-1px 1px 0 #ddd,
+		-2px 2px 0 #c8c8c8,
+		-3px 3px 0 #ccc,
+		-4px 4px 0 #b8b8b8,
+		-4px 4px 0 #bbb,
+		0px 1px 1px rgba(0,0,0,.4),
+		0px 2px 2px rgba(0,0,0,.3),
+		-1px 3px 3px rgba(0,0,0,.2),
+		-1px 5px 5px rgba(0,0,0,.1),
+		-2px 8px 8px rgba(0,0,0,.1),
+		-2px 13px 13px rgba(0,0,0,.1)
+		;
+}
+
+.scoreB {
+  margin-bottom: 10px;
+}
+
+.col-left {
+  font-family: "game_of_thronesregular", monospace;
+  text-align: left;
+}
+
+.col-right {
+  font-family: "hodorregular", serif;
+  text-align: right;
+  padding-top: 20px;
+  padding-right: 40px;
+}
+
+.alert-danger {
+  font-family: "hodorregular", serif;
+  text-transform: uppercase;
+  color: #fff;
+  /* display: inline; */
+  background-color: red !important;
+  border-radius: 0 !important;
+  border-color: none !important;
+  border: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  cursor: default;
+  /* margin: auto; */
+}
+
+.alert-danger:hover {
+  color: #fff;
+  background-color: #000 !important;
+}
+
+.alert-success {
+  font-family: "hodorregular", serif;
+  text-transform: uppercase;
+  color: #fff;
+  /* display: inline; */
+  background-color: blue !important;
+  border-radius: 0 !important;
+  border-color: none !important;
+  border: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  cursor: default;
+}
+
+.alert-success:hover {
+  color: #fff;
+  background-color: #000 !important;
+}
+
+#root {
+  background-image: url("/assets/images/GOT/bg-00.png");
+  background-color: #dddddd;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: -30px;
+}
+iframe {
+  width: 100%;
+  height: 0px;
+  background-color: #fff;
+}
+.footer {
+  font-family: "hodorregular", serif;
+  background-color: #000;
+  color: #fff;
+  text-align: right;
+  /* height: 400px; */
+}
+.footer:hover {
+  background-color: #fff;
+  color:red;
+}
+.footer a {
+  color: #fff;
+}
+.footer a:hover {
+  color:red;
+  text-decoration: none;
+}

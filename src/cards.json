@@ -1,0 +1,170 @@
+[
+  {
+    "id": 1,
+    "image": "/assets/images/GOT/Arya_Stark.png",
+    "artist": "Arya Stark",
+    "title": "House Stark",
+    "year": "289 AC"
+  },
+  {
+    "id": 2,
+    "image": "/assets/images/GOT/Bran_Stark.jpg",
+    "artist": "Bran Stark",
+    "title": "House Stark",
+    "year": "290 AC"
+  },
+  {
+    "id": 3,
+    "image": "/assets/images/GOT/Brienne_of_Tarth.jpg",
+    "artist": "Brienne of Tarth",
+    "title": "House Tarth",
+    "year": "280 AC"
+  },
+  {
+    "id": 4,
+    "image": "/assets/images/GOT/Bronn.png",
+    "artist": "Bronn",
+    "title": "House Stokeworth",
+    "year": "268 AC"
+  },
+  {
+    "id": 5,
+    "image": "/assets/images/GOT/Cersei_Lannister.jpg",
+    "artist": "Cersei Lannister",
+    "title": "House Lannister",
+    "year": "266 AC"
+  },
+  {
+    "id": 6,
+    "image": "/assets/images/GOT/Daenerys_Targaryen.jpg",
+    "artist": "Daenerys Targaryen",
+    "title": "House Targaryen",
+    "year": "284 AC"
+  },
+  {
+    "id": 7,
+    "image": "/assets/images/GOT/Davos_Seaworth.png",
+    "artist": "Davos Seaworth",
+    "title": "House Seaworth",
+    "year": "260 AC"
+  },
+  {
+    "id": 8,
+    "image": "/assets/images/GOT/Gendry.png",
+    "artist": "Gendry",
+    "title": "House Baratheon / House Storm",
+    "year": "284 AC"
+  },
+  {
+    "id": 9,
+    "image": "/assets/images/GOT/Gilly.png",
+    "artist": "Gilly",
+    "title": "Free Folk",
+    "year": "~282 AC"
+  },
+  {
+    "id": 10,
+    "image": "/assets/images/GOT/Grey_Worm.png",
+    "artist": "Grey Worm",
+    "title": "Unsullied",
+    "year": "~280 AC"
+  },
+  {
+    "id": 11,
+    "image": "/assets/images/GOT/Jaime_Lannister.jpg",
+    "artist": "Jaime Lannister",
+    "title": "House Lannister",
+    "year": "266 AC"
+  },
+  {
+    "id": 12,
+    "image": "/assets/images/GOT/Jon_Snow.jpg",
+    "artist": "Jon Snow",
+    "title": "House Targaryen",
+    "year": "283 AC"
+  },
+  {
+    "id": 13,
+    "image": "/assets/images/GOT/Jorah_Mormont.jpg",
+    "artist": "Jorah Mormont",
+    "title": "House Mormont",
+    "year": "254 AC"
+  },
+  {
+    "id": 14,
+    "image": "/assets/images/GOT/Melisandre.png",
+    "artist": "Melisandre",
+    "title": "Asshai",
+    "year": "~100 BC"
+  },
+  {
+    "id": 15,
+    "image": "/assets/images/GOT/Missandei.png",
+    "artist": "Missandei",
+    "title": "Naath",
+    "year": "~289 AC"
+  },
+  {
+    "id": 16,
+    "image": "/assets/images/GOT/Podrick_Payne.png",
+    "artist": "Podrick Payne",
+    "title": "House Payne",
+    "year": "286 AC"
+  },
+  {
+    "id": 17,
+    "image": "/assets/images/GOT/Samwell_Tarly.jpg",
+    "artist": "Samwell Tarly",
+    "title": "House Tarly",
+    "year": "283 AC"
+  },
+  {
+    "id": 18,
+    "image": "/assets/images/GOT/Sansa_Stark.jpg",
+    "artist": "Sansa Stark",
+    "title": "House Stark",
+    "year": "286 AC"
+  },
+  {
+    "id": 19,
+    "image": "/assets/images/GOT/The_Hound.jpg",
+    "artist": "Sandor Clegane \"The Hound\"",
+    "title": "House Clegane",
+    "year": "270 AC"
+  },
+  {
+    "id": 20,
+    "image": "/assets/images/GOT/The_Mountain.png",
+    "artist": "Gregor Clegane \"The Mountain\"",
+    "title": "House Clegane",
+    "year": "265 AC"
+  },
+  {
+    "id": 21,
+    "image": "/assets/images/GOT/Theon_Greyjoy.png",
+    "artist": "Theon Greyjoy",
+    "title": "House Greyjoy",
+    "year": "278 AC"
+  },
+  {
+    "id": 22,
+    "image": "/assets/images/GOT/Tormund_Giantsbane.png",
+    "artist": "Tormund Giantsbane",
+    "title": "Free Folk",
+    "year": "~260 AC"
+  },
+  {
+    "id": 23,
+    "image": "/assets/images/GOT/Tyrion_Lannister.jpg",
+    "artist": "Tyrion Lannister",
+    "title": "House Lannister",
+    "year": "273 AC"
+  },
+  {
+    "id": 24,
+    "image": "/assets/images/GOT/Yara_Greyjoy.png",
+    "artist": "Yara Greyjoy",
+    "title": "House Greyjoy",
+    "year": "275 AC"
+  }
+]
