@@ -8,7 +8,7 @@ For this assignment, you'll create a memory game with React. This assignment wil
 This is an EXTREME memorization and click game. The object of the game is to click on only one character once. If you repeat guesses, you lose and the score is reset to 0. You win by reaching the max score total of 24.
 
 ## Getting Started
-Try the app Here []() (`Heroku`)
+Try the app Here [https://game-of-thrones-click-game.herokuapp.com/](https://game-of-thrones-click-game.herokuapp.com/) (`Heroku`)
 
 ## The Screenshot
 ![Screenshot](./public/assets/screenshots/demo-01.jpg)
