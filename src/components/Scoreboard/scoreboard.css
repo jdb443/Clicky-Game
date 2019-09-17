@@ -138,13 +138,16 @@ iframe {
   /* height: 400px; */
 }
 .footer:hover {
-  background-color: #fff;
+  /* background-color: #fff; */
   color:red;
 }
 .footer a {
-  color: #fff;
+  color: #ffffff;
 }
 .footer a:hover {
   color:red;
   text-decoration: none;
+}
+.footerTitle0{
+  margin-bottom: 0;
 }

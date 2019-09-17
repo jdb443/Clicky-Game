@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+// import paintings from "./cards.json";
 import paintings from "./cards.json";
 import Scoreboard from "./components/Scoreboard";
 import Card from "./components/Card";
@@ -27,12 +28,12 @@ class App extends Component {
     let clickedpaintings = this.state.clickedpaintings;
     let score = this.state.score;
     let topScore = this.state.topScore;
-    this.setState({
-      showAlert: 0
-    });
+    // this.setState({
+    //   showAlert: 0
+    // });
 
     // if the clicked image has an id of the indexed paintings
-    if (clickedpaintings.indexOf(id) === -1) {
+    if (clickedpaintings.indexOf(id)) {
       // push that id into that id into the array to be stored
       clickedpaintings.push(id);
       console.log(clickedpaintings);
@@ -40,7 +41,7 @@ class App extends Component {
       this.handleIncrement();
       // run the reshuffle function after each click
       this.makeShuffle();
-    } else if (this.state.score === 12) {
+    } else if (this.state.score === 24) {
       // alert player wins
       this.setState({
         showSuccess: 1,
@@ -51,26 +52,69 @@ class App extends Component {
        // alert player loss
       this.setState({
         score: 0,
-        clickedpaintings: []
-      });
-      console.log("duplicate");
-      this.setState({
+        clickedpaintings: [],
         showAlert: 1
       });
+      console.log("duplicate");
     }
 
-    if (score > topScore) {
-      this.setState({
-        topScore: score
-      });
-    }
+    // if (score > topScore) {
+    //   this.setState({
+    //     topScore: score
+    //   });
+    // }
   };
 
   // handleIncrement increases this.state.score by 1
   handleIncrement = () => {
+    let { score, topScore } = this.state;
+
+    score++;
+
+    if(score >= topScore) {
+      topScore = score;
+    } 
+
+    this.setState({
+      score,
+      topScore
+    }, () => {
+      if (score === 24) {
+        // alert player wins
+        this.setState({
+          showSuccess: 1,
+          score: 0,
+          clickedpaintings: []
+        });
+    }
+    });
+
+
+  //   else if (score === 5) {
+  //     // alert player wins
+  //     this.setState({
+  //       showSuccess: 1,
+  //       score: 0,
+  //       clickedpaintings: []
+  //     });
+  // }
+
+
     // setState updates a components states
-    this.setState({ score: this.state.score + 1 });
   };
+
+  // checkState = () => {
+  //   const { score } = this.state;
+
+  //   if (score === 5) {
+  //     // alert player wins
+  //     this.setState({
+  //       showSuccess: 1,
+  //       score: 0,
+  //       clickedpaintings: []
+  //     });
+  //   } 
+  // }
 
   // shuffle up images
   makeShuffle = () => {

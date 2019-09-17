@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "image": "/assets/images/GOT/Arya_Stark.png",
+      "artist": "Arya Stark",
+      "title": "House Stark",
+      "year": "289 AC"
+    },
+    {
+      "id": 2,
+      "image": "/assets/images/GOT/Bran_Stark.jpg",
+      "artist": "Bran Stark",
+      "title": "House Stark",
+      "year": "290 AC"
+    },
+    {
+      "id": 3,
+      "image": "/assets/images/GOT/Brienne_of_Tarth.jpg",
+      "artist": "Brienne of Tarth",
+      "title": "House Tarth",
+      "year": "280 AC"
+    },
+    {
+      "id": 4,
+      "image": "/assets/images/GOT/Bronn.png",
+      "artist": "Bronn",
+      "title": "House Stokeworth",
+      "year": "268 AC"
+    },
+    {
+      "id": 5,
+      "image": "/assets/images/GOT/Cersei_Lannister.jpg",
+      "artist": "Cersei Lannister",
+      "title": "House Lannister",
+      "year": "266 AC"
+    }
+  ]
+  
