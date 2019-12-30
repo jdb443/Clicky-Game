@@ -25,7 +25,7 @@
     "not op_mini all"
   ],
   "engines": {
-    "node": "10.16.0",
+    "node": "13.1.0",
     "yarn": "1.17.3"
   }
 }
