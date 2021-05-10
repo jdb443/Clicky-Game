@@ -6,7 +6,7 @@
     "acorn": "^7.1.1",
     "acorn-globals": "^6.0.0",
     "kind-of": "^6.0.3",
-    "lodash": "^4.17.20",
+    "lodash": "^4.17.21",
     "minimist": "^1.2.5",
     "mixin-deep": "^2.0.1",
     "mkdirp": "^1.0.4",
